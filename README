@@ -1,0 +1,23 @@
+***The code provides a CLI with following required arguments:
+
+usage: run.py [-h] [--algorithm ALGORITHM] [--data DATA] [--tr-portion]
+
+Supervised learning
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --algorithm ALGORITHM
+                        Selection of algorithm to run (default: None)
+  --data DATA           name of dataset (default: None)
+  --tr-portion          run the mode that will train the model using different
+                        portion of training data. (default: False)
+
+***To run a single experiment:
+>> python run.py --algorithm nn --data skyserver
+
+***To run all experiments:
+>> sh run_all_experiments.sh
+
+
+
+
